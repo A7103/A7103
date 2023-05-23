@@ -6,6 +6,8 @@
 - 🌱 I’m currently learning and developing <a href="https://go.dev/"><img src="./gopher.png" width="3.5%" height="auto"></a>
 - 💬 If you have any question about my code, please summit a issue
 
+<img src="https://github.com/A7103/A7103/blob/output/github-contribution-grid-snake.svg" >
+
 <!-- ##  I’m currently learning
 <img src="https://www.rust-lang.org/static/images/favicon-32x32.png" width="30px" height="30px"> &nbsp; Rust -->
 <!---
