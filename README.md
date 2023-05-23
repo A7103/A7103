@@ -3,7 +3,7 @@
 ### Hey, coder <img src="https://raw.githubusercontent.com/wasabeef/wasabeef/master/icons/wave.gif" width="25px" height="25px">
 
 - 🖖 Hi, I’m A7103 or you can call me Pan
-- 🌱 I’m currently learning and developing <a href="https://go.dev/"><img src="https://pbs.twimg.com/profile_images/554798224154701824/mWd3laxO_400x400.png" width="3%" height="30px"></a>
+- 🌱 I’m currently learning and developing <a href="https://go.dev/"><img src="./gopher.png" width="3.5%" height="auto"></a>
 - 💬 If you have any question about my code, please summit a issue
 
 <!-- ##  I’m currently learning
