@@ -1,13 +1,10 @@
-## Hi Coder <img src="https://raw.githubusercontent.com/wasabeef/wasabeef/master/icons/wave.gif" width="30px" height="30px">
+<img align="right" src="https://github-readme-stats.vercel.app/api?username=A7103&show_icons=true&icon_color=CE1D2D&text_color=718096&bg_color=ffffff&hide_title=true" />
 
-Here is the homepage of A7103.
+### Hey, coder <img src="https://raw.githubusercontent.com/wasabeef/wasabeef/master/icons/wave.gif" width="25px" height="25px">
 
-## I am a newbie in programing
-
-if you have any question about my code, please summit a issue 💬.
-
-## I am currently coding
-- <img src="https://go.dev/favicon.ico" width="30px" height="30px"> &nbsp; Go
+- 🖖 Hi, I’m A7103 or you can call me Pan
+- 🌱 I’m currently learning and developing <a href="https://go.dev/"><img src="https://pbs.twimg.com/profile_images/554798224154701824/mWd3laxO_400x400.png" width="3%" height="30px"></a>
+- 💬 If you have any question about my code, please summit a issue
 
 <!-- ##  I’m currently learning
 <img src="https://www.rust-lang.org/static/images/favicon-32x32.png" width="30px" height="30px"> &nbsp; Rust -->
