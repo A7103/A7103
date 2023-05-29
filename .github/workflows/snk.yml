@@ -2,7 +2,7 @@ name: generate snk
 
 on:
   schedule:
-    - cron: "0 */16 * * *" 
+    - cron: "0 */24 * * *" 
   workflow_dispatch:
   # run on every push on the master branch
   push:
