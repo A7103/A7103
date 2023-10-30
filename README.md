@@ -4,7 +4,7 @@
 
 - 🖖 Hi, I’m Pan
 - 🌱 I’m currently learning  <a href="https://go.dev/"><img src="./go.png" width="5.5%" height="auto"> </a>
-- 💬 If you have any question about my code, please summit a issue
+- 💬 If you have any questions about my code or want to contact me, please [submit an issue](https://github.com/A7103/issue/issues/new)
 
 <img src="https://github.com/A7103/A7103/blob/output/github-contribution-grid-snake.svg" >
 
