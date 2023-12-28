@@ -1,5 +1,7 @@
 <div align="center">
-    <a href="https://github.com/a7103"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=&vCenter=&repeat=&random=%E9%94%99%E8%AF%AF%E7%9A%84&width=435&lines=Hey%2C+there+%F0%9F%91%8B;fmt.Println(%22Hello+World!%22);&center=true" alt="Typing SVG" /></a>
+    <a href="https://github.com/a7103">
+        <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&duration=3000&pause=1000&center=true&vCenter=true&random=false&width=435&lines=Hey%2C+there+%F0%9F%91%8B;fmt.Println(%22Hello+World!%22);fmt.Println(%22Hope%20you%20happy%20everyday%22)" alt="Typing SVG" />
+    </a>
 </div> 
 
 <img src="https://cdn.jsdelivr.net/gh/A7103/A7103/assets/images/header.png"  alt="header">
