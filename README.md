@@ -10,6 +10,8 @@
   <img src="">
 </picture>
 
+
+
 - 🖖 Hi, I’m Pan
   
 - 🌱 Currently learning  <a href="https://go.dev/"><img src="./assets/images/go.png" width="50px" height="auto"></a>
@@ -22,8 +24,9 @@
 <img  src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=A7103&theme=github" height="160"/>
 <img  src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=A7103&theme=github" height="160"/>
 </p>
-<img src="https://cdn.jsdelivr.net/gh/A7103/A7103/assets/images/github-contribution-grid-snake.svg"  alt="snk">
 
-
-
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/A7103/A7103/assets/images/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/A7103/A7103/assets/images/github-snake.svg">
+  <img src="">
+</picture>
