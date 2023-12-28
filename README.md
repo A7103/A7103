@@ -5,15 +5,15 @@
 </div> 
 <div style="color-scheme: light">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/A7103/A7103/assets/images/go-icon-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/A7103/A7103/assets/images/go-icon-light.png">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/images/go-icon-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/images/go-icon-light.png">
   <img src="">
 </picture>
 
 
 - 🖖 Hi, I’m Pan
   
-- 🌱 Currently learning  <a href="https://go.dev/"><img src="./assets/images/go.svg" width="50px" height="auto"></a>
+- 🌱 Currently learning  <a href="https://go.dev/"><img src="./assets/images/go.png" width="50px" height="auto"></a>
 
 - ⛵ Passionate about open source.
   
@@ -21,7 +21,7 @@
 
 <p>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=A7103&theme=github_dark">
+  <source media="(prefers-color-scheme: dark)" srcset="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=A7103&theme=github_dark" >
   <source media="(prefers-color-scheme: light)" srcset="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=A7103&theme=github">
   <img src="" height="160">
 </picture>
@@ -34,7 +34,7 @@
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/A7103/A7103/assets/images/github-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/A7103/A7103/assets/images/github-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/images/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/images/github-snake.svg">
   <img src="">
 </picture>
