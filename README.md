@@ -1,6 +1,6 @@
 <div align="center">
     <a href="https://github.com/a7103">
-        <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&duration=3000&pause=1000&center=true&vCenter=true&random=false&width=435&lines=Hey%2C+there+%F0%9F%91%8B;fmt.Println(%22Hello+World!%22);fmt.Println(%22Hope%20you%20happy%20everyday%22)" alt="Typing SVG" />
+        <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&duration=3000&pause=1000&color=45BF8B&center=true&vCenter=true&random=false&width=480&lines=Hey%2C+there+%F0%9F%91%8B;fmt.Println(%22Hello+World!%22);fmt.Println(%22Hope+you+happy+everyday!%22)" alt="Typing SVG" />
     </a>
 </div> 
 
