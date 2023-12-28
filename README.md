@@ -11,7 +11,6 @@
 </picture>
 
 
-
 - 🖖 Hi, I’m Pan
   
 - 🌱 Currently learning  <a href="https://go.dev/"><img src="./assets/images/go.png" width="50px" height="auto"></a>
@@ -21,8 +20,17 @@
 - 💬 If you have any questions about my code or want to contact me, [please submit an issue](https://github.com/A7103/issue/issues/new)
 
 <p>
-<img  src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=A7103&theme=github" height="160"/>
-<img  src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=A7103&theme=github" height="160"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=A7103&theme=github_dark">
+  <source media="(prefers-color-scheme: light)" srcset="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=A7103&theme=github">
+  <img src="" height="160">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=A7103&theme=github_dark">
+  <source media="(prefers-color-scheme: light)" srcset="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=A7103&theme=github">
+  <img src="" height="160">
+</picture>
 </p>
 
 <picture>
