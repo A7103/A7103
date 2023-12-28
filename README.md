@@ -8,7 +8,7 @@
 
 - 🖖 Hi, I’m Pan
   
-- 🌱 Currently learning  <a href="https://go.dev/"><img src="./assets/images/go.png" width="60px" height="auto"></a>
+- 🌱 Currently learning  <a href="https://go.dev/"><img src="./assets/images/go.png" width="50px" height="auto"></a>
 
 - ⛵ Passionate about open source.
   
