@@ -22,9 +22,9 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-        outputs: |
-          dist/assets/images/github-snake.svg
-          dist/assets/images/github-snake-dark.svg?palette=github-dark
+          outputs: |
+            dist/assets/images/github-snake.svg
+            dist/assets/images/github-snake-dark.svg?palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
