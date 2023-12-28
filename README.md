@@ -15,8 +15,8 @@
 - 💬 If you have any questions about my code or want to contact me, [please submit an issue](https://github.com/A7103/issue/issues/new)
 
 <p>
-<img  src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=a7103&theme=github" height="160"/>
-<img  src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=a7103&theme=github" height="160"/>
+<img  src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=A7103&theme=github" height="160"/>
+<img  src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=A7103&theme=github" height="160"/>
 </p>
 <img src="https://cdn.jsdelivr.net/gh/A7103/A7103/assets/images/github-contribution-grid-snake.svg"  alt="snk">
 
