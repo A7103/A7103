@@ -1,18 +1,20 @@
 <div style="text-align: center;">
     <a href="https://github.com/a7103"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=32A17D&center=%E9%94%99%E8%AF%AF%E7%9A%84&vCenter=%E9%94%99%E8%AF%AF%E7%9A%84&repeat=%E7%9C%9F%E7%9A%84&random=%E9%94%99%E8%AF%AF%E7%9A%84&width=435&lines=Hey%2C+there+%F0%9F%91%8B;fmt.Println(%22Hello+World!%22);&center=true" alt="Typing SVG" /></a>
 </div> 
-<img src="https://cdn.jsdelivr.net/gh/A7103/A7103/assets/images/header.png"  alt="header">    
+
+<img src="https://cdn.jsdelivr.net/gh/A7103/A7103/assets/images/header.png"  alt="header">
 
 - 🖖 Hi, I’m Pan
 - 🌱 Currently learning  <a href="https://go.dev/"><img src="./assets/images/go.png" width="60px" height="auto"></a>
 - ⛵ Passionate about open source.
 - 💬 If you have any questions about my code or want to contact me, [please submit an issue](https://github.com/A7103/issue/issues/new)
 
+<p style="text-align: center;">
+<img  src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=a7103&theme=github" height="140"/>
+<img  src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=a7103&theme=github" height="140"/>
+</p>
 <img src="https://cdn.jsdelivr.net/gh/A7103/A7103/assets/images/github-contribution-grid-snake.svg"  alt="snk">
 
-<p style="text-align: center;">
-<img  src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=A7103&theme=github" height="140"/>
-<img  src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=A7103&theme=github" height="140"/>
-<img  src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=A7103&theme=github" height="140"/>
-</p>
+
+
 
