@@ -23,12 +23,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: |
-            mv ./profile-summary-card-output/github_dark/0-profile-details.svg ./assets/images/github-profile-details-dark.svg
-            mv ./profile-summary-card-output/github_dark/4-productive-time.svg ./assets/images/github-productive-time-dark.svg
-            mv ./profile-summary-card-output/github/0-profile-details.svg ./assets/images/github-profile-details.svg
-            mv ./profile-summary-card-output/github/4-productive-time.svg ./assets/images/github-productive-time.svg
-            git config user.name github-actions
-            git config user.email github-actions@github.com
-            git add ./assets/images
-            git commit -m "Update profile summary card"
-            git push
+              mv ./profile-summary-card-output/github_dark/0-profile-details.svg ./assets/images/github-profile-details-dark.svg
+              mv ./profile-summary-card-output/github_dark/4-productive-time.svg ./assets/images/github-productive-time-dark.svg
+              mv ./profile-summary-card-output/github/0-profile-details.svg ./assets/images/github-profile-details.svg
+              mv ./profile-summary-card-output/github/4-productive-time.svg ./assets/images/github-productive-time.svg
+              git config user.name github-actions
+              git config user.email github-actions@github.com
+              git add ./assets/images
+              git commit -m "Update profile summary card"
+              git push
