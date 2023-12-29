@@ -5,7 +5,7 @@
 </div> 
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/images/azure_bit_gopher_low_size.png">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/images/go-icon-dark.png">
   <source media="(prefers-color-scheme: light)" srcset="./assets/images/gopher_snacks_low_size.png">
   <img src="https://github.com/A7103">
 </picture>
