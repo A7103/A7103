@@ -22,22 +22,13 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: push github-profile-summary-cards to the master branch - light
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: master
-          build_dir: profile-summary-card-output/github
-          keep_history: true
-          commit_message: "Update profile summary card"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: push github-profile-summary-cards to the master branch - dark
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: master
-          build_dir: profile-summary-card-output/github_dark
-          keep_history: true
-          commit_message: "Update profile summary card"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@v4
+      - run: |
+            git config user.name github-actions
+            git config user.email github-actions@github.com
+            git add .profile-summary-card-output/github_dark/0-profile-details.svg
+            git add .profile-summary-card-output/github_dark/1-repos-per-language.svg
+            git add .profile-summary-card-output/github/0-profile-details.svg
+            git add .profile-summary-card-output/github/1-repos-per-language.svg
+            git commit -m "Update profile summary card"
+            git push
