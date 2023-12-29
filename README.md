@@ -5,7 +5,7 @@
 </div> 
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/images/gopher_snacks_low_size.png">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/images/gopher_snacks_low_size_dark.png">
   <source media="(prefers-color-scheme: light)" srcset="./assets/images/gopher_snacks_low_size.png">
   <img src="https://github.com/A7103">
 </picture>
