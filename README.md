@@ -6,7 +6,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/images/go-icon-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/images/go-icon-light.png">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/images/gopher_snacks.png">
   <img src="https://github.com/A7103">
 </picture>
 
