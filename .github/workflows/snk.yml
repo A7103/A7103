@@ -4,12 +4,6 @@ on:
   schedule:
     - cron: "30 15 * * *" 
   workflow_dispatch:
-  # run on every push on the master branch
-  push:
-    branches:
-    - master
-    
-  
 
 jobs:
   generate:
@@ -36,5 +30,6 @@ jobs:
           target_branch: master
           build_dir: dist
           keep_history: true
+          commit_message: "Update github-snake.svg"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

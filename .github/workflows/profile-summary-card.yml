@@ -1,0 +1,34 @@
+name: generate profile summary card
+
+on:
+  schedule:
+    - cron: "30 15 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: generate-github-profile-summary-cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: "master"
+          UTC_OFFSET: 0
+          EXCLUDE: ""
+          AUTO_PUSH: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: push github-profile-summary-cards to the master branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: master
+          build_dir: profile-summary-card-output
+          keep_history: true
+          absolute_build_dir: true
+          commit_message: "Update profile summary card"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
