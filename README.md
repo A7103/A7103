@@ -21,14 +21,14 @@
 
 <p>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=A7103&theme=github_dark" >
-  <source media="(prefers-color-scheme: light)" srcset="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=A7103&theme=github">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/images/github-profile-details-dark.svg" >
+  <source media="(prefers-color-scheme: light)" srcset="./assets/images/github-profile-details.svg">
   <img src="https://github.com/A7103" height="160">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=A7103&theme=github_dark">
-  <source media="(prefers-color-scheme: light)" srcset="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=A7103&theme=github">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/images/github-productive-time-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/images/github-productive-time.svg">
   <img src="https://github.com/A7103" height="160">
 </picture>
 </p>
