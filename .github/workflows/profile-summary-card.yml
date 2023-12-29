@@ -22,13 +22,22 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: push github-profile-summary-cards to the master branch
+      - name: push github-profile-summary-cards to the master branch - light
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: master
-          build_dir: profile-summary-card-output
+          build_dir: profile-summary-card-output/github
           keep_history: true
-          absolute_build_dir: true
+          commit_message: "Update profile summary card"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: push github-profile-summary-cards to the master branch - dark
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: master
+          build_dir: profile-summary-card-output/github_dark
+          keep_history: true
           commit_message: "Update profile summary card"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
