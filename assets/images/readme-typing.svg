@@ -18,8 +18,8 @@
                 <path id='path0'>
                             <!-- Single line -->
                                 <animate id='d0' attributeName='d' begin='0s;d1.end'
-                    dur='6000ms' fill='remove'
-                    values='m0,25 h0 ; m0,25 h480 ; m0,25 h480 ; m0,25 h0' keyTimes='0;0.66666666666667;0.83333333333333;1' />
+                    dur='4000ms' fill='remove'
+                    values='m0,25 h0 ; m0,25 h480 ; m0,25 h480 ; m0,25 h0' keyTimes='0;0.6;0.85;1' />
                     </path>
     <text font-family='"JetBrains Mono", monospace' fill='#36BCF7' font-size='20'
         dominant-baseline='middle'
@@ -31,8 +31,8 @@
         <path id='path1'>
                             <!-- Single line -->
                                 <animate id='d1' attributeName='d' begin='d0.end'
-                    dur='6000ms' fill='remove'
-                    values='m0,25 h0 ; m0,25 h480 ; m0,25 h480 ; m0,25 h0' keyTimes='0;0.66666666666667;0.83333333333333;1' />
+                    dur='4000ms' fill='remove'
+                    values='m0,25 h0 ; m0,25 h480 ; m0,25 h480 ; m0,25 h0' keyTimes='0;0.6;0.85;1' />
                     </path>
     <text font-family='"JetBrains Mono", monospace' fill='#36BCF7' font-size='20'
         dominant-baseline='middle'
