@@ -12,7 +12,8 @@ jobs:
 
     steps:
       - name: generate-github-profile-summary-cards
-        uses: vn7n24fzkq/github-profile-summary-cards@release
+      - uses: actions/checkout@v4
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
         with:
           USERNAME: ${{ github.repository_owner }}
           BRANCH_NAME: "master"
@@ -21,8 +22,6 @@ jobs:
           AUTO_PUSH: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - uses: actions/checkout@v4
       - run: |
             mv ./profile-summary-card-output/github_dark/0-profile-details.svg ./assets/images/github-profile-details-dark.svg
             mv ./profile-summary-card-output/github_dark/4-productive-time.svg ./assets/images/github-productive-time-dark.svg
