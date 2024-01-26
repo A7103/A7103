@@ -44,5 +44,5 @@ jobs:
           
           git add ./assets/images
           git commit -m "Update profile summary card"
-          git push origin/master
+          git push
           
