@@ -1,0 +1,48 @@
+name: generate profile summary card
+
+on:
+  schedule:
+    - cron: "35 15 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: generate-github-profile-summary-cards
+        uses:  vn7n24fzkq/github-profile-summary-cards@release
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: "master"
+          UTC_OFFSET: 0
+          EXCLUDE: ""
+          AUTO_PUSH: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: push assets/images dir changes to master 
+        run: |
+          mv ./profile-summary-card-output/github_dark/0-profile-details.svg ./assets/images/github-profile-details-dark.svg
+          mv ./profile-summary-card-output/github_dark/4-productive-time.svg ./assets/images/github-productive-time-dark.svg
+          mv ./profile-summary-card-output/github/0-profile-details.svg ./assets/images/github-profile-details.svg
+          mv ./profile-summary-card-output/github/4-productive-time.svg ./assets/images/github-productive-time.svg
+          rm -rf ./profile-summary-card-output
+          
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No changes found. Exiting."
+            exit 0
+          else
+            echo "Changes found. Submitting changes to master."
+          fi
+          
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          git add ./assets/images
+          git commit -m "Update profile summary card"
+          git push
+          
